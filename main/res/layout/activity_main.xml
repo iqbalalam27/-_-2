@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFC107"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_calculator"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edittext"
+        android:hint="Enter Number"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/input2"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edittext"
+        android:hint="Enter Number"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/newedt"
+        android:text="Result"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/plus"
+            android:layout_margin="10dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="#B65EC5"/>
+        <Button
+            android:id="@+id/minus"
+            android:layout_margin="10dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="#B65EC5"/>
+        <Button
+            android:id="@+id/Multi"
+            android:layout_margin="10dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="#B65EC5"/>
+        <Button
+            android:id="@+id/devide"
+            android:layout_margin="10dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="#B65EC5"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
